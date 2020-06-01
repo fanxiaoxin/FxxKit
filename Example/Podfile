@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FxxKit_Example' do
+  pod 'FxxKit', :path => '../'
+
+  target 'FxxKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
