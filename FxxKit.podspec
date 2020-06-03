@@ -25,14 +25,14 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fanxiaoxin' => 'fanxiaoxin_1987@126.com' }
-  s.source           = { :git => 'https://github.com/fanxiaoxin/FxxKit.git', :commit => 'fad803d', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fanxiaoxin/FxxKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'FxxKit/Classes/**/*'
   
-  s.swift_version = '5.0'
+  s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'FxxKit' => ['FxxKit/Assets/*.png']
   # }
